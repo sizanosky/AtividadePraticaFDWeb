@@ -1,4 +1,4 @@
-export const alunos = [
+export const Alunos = [
     {
         nome: "Marcos Fabricio Sizanosky",
         ru: "3395570",

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { alunos } from './app.alunos'
+import { Alunos } from './app.alunos'
 
 @Component({
   selector: 'app-root',
@@ -8,5 +8,5 @@ import { alunos } from './app.alunos'
 })
 export class AppComponent {
   title = 'Lista de alunos';
-  lista_alunos = alunos;
+  lista_alunos = Alunos;
 }
