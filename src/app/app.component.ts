@@ -8,5 +8,5 @@ import { Alunos } from './app.alunos'
 })
 export class AppComponent {
   title = 'Lista de alunos';
-  lista_alunos = Alunos;
+  lista_alunos = Alunos; /* Array com os dados dos alunos */
 }

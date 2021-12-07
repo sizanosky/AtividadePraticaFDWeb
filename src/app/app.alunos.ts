@@ -1,5 +1,7 @@
+/* Array com os dados que serão mostrados em "app.components.html" organizados em uma tabela */
 export const Alunos = [
     {
+        /* Meus dados */
         nome: "Marcos Fabricio Sizanosky",
         ru: "3395570",
         curso: "Análise e Desenvolvimento de Sistemas",
