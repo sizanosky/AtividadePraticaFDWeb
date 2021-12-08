@@ -2,7 +2,7 @@
   <h1 class="fas fa-address-card"> DADOS ALUNOS </h1>
 </header>
 
-<div class="container">
+<section class="container">
 
   <!-- Bootstrap - Mostra as bordas da tabela e da realce a linha ao passar o mouse -->
   <table class='table table-bordered table-hover'> 
@@ -17,17 +17,18 @@
     </thead>
     <tbody>
       <!--For loop em "Alunos" com os dados do array "lista_alunos" -->
-      <ng-container *ngFor=" let aluno of lista_alunos"> 
+      <ng-container *ngFor=" let aluno of lista_alunos">
         <tr>
           <td> {{ aluno.nome }} </td> 
-          <td> {{ aluno.ru }} </td>
+          <!-- Bootstrap - Texto RU na cor azul -->
+          <td class="text-primary"> {{ aluno.ru }} </td>
           <td> {{ aluno.curso }} </td>
           <td> {{ aluno.dt_nascimento }} </td>
         </tr>
       </ng-container>
     </tbody>
   </table>
-</div>
+</section>
 
 <footer>
   <!-- Link para os arquivos no GitHub -->

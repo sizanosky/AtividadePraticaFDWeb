@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Alunos } from './app.alunos'
+import { Alunos } from './arquivo' /* Faz a importação do arquivo que contem os dados */
 
 @Component({
   selector: 'app-root',
