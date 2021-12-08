@@ -1,4 +1,5 @@
-/* Array com os dados que serão mostrados em "app.components.html" organizados em uma tabela */
+/* O arquivo.ts contem um array com os dados que serão mostrados em "app.components.html" 
+organizados em uma tabela */
 export const Alunos = [
     {
         /* Meus dados */
